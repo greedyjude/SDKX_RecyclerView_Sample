@@ -74,7 +74,7 @@ public class VerticalLinearLayoutAdapter extends RecyclerView.Adapter<VerticalLi
         @Override
         public void bind(Hit hit) {
             adview.setUnitId("float-4730");
-//            adview.loadAd(adLoadCallback);
+            adview.loadAd(adLoadCallback);
         }
 
         AdLoadCallback adLoadCallback = new AdLoadCallback() {
